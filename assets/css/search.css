@@ -1,0 +1,190 @@
+
+.form-group {
+    margin:0;
+    padding:30px ;
+
+    
+}
+
+.form-control {
+  padding: 0px 10px 0 20px;
+  margin-top: 10px;
+  color: #333;
+  font-size: 17px;
+  font-weight: 500;
+    border: 3px solid #555;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    min-height:50px;
+    height: auto;
+    border-radius: 50px !important;
+}
+.form-control :focus {
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border-color: transparent;
+
+    }
+
+
+    /* For submit */
+    .money {
+     
+      background-color:#212529;
+      color:white;
+      padding:08px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 150%;
+  }
+
+  /* 8. Popular-Brand */
+.popular-selling-wrap {
+  background: #fff;
+padding: 45px 45px 25px;
+box-shadow: 0px 5px 14.88px 1.12px rgba(167, 167, 167, 0.15);
+}
+.popular-selling-wrap {
+  background: #fff;
+padding: 45px 45px 25px;
+box-shadow: 0px 5px 14.88px 1.12px rgba(167, 167, 167, 0.15);
+}
+.popular-selling-items {
+margin-bottom: 25px;
+text-align: center;
+}
+.popular-selling-items img {
+  max-width: 100%;
+}
+.popular-selling-ad-banner img {
+  max-width: 80%;
+  box-shadow: 0px 2px 8.37px 0.63px rgb(154 154 154 / 25%);
+  
+}
+.popular-selling-top {
+  display: flex;
+  align-items: center;
+justify-content: space-between;
+margin-bottom: 35px;
+}
+.popular-selling-title h4 {
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding-left: 15px;
+  position: relative;
+}
+.popular-selling-title h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 20px;
+  width: 5px;
+}
+.see-all-brand a {
+  font-size: 12px;
+  display: inline-block;
+  font-weight: 500;
+  color: #666565;
+  text-decoration: underline;
+}
+
+.popular-selling-ad-banner a,
+.latest-car-thumb a {
+display: block;
+overflow: hidden;
+position: relative;
+}
+.popular-selling-ad-banner a::before,
+.latest-car-thumb a::before,
+.best-services-thumb::before,
+.blog-post-thumb a::before {
+  position: absolute;
+  top: 0;
+  left: -80%;
+  display: block;
+  content: '';
+  width: 50%;
+  height: 100%;
+  background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 42556, 255, 0)), to(rgba(255, 255, 255, .3)));
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+  -webkit-transform: skewX(-25deg);
+  -ms-transform: skewX(-25deg);
+  transform: skewX(-25deg);
+}
+.popular-selling-ad-banner a:hover::before,
+.latest-car-item:hover .latest-car-thumb a::before,
+.best-services-item:hover .best-services-thumb::before,
+.blog-post-item:hover .blog-post-thumb a::before {
+  -webkit-animation: shine 1s;
+  animation: shine 1s;
+}
+@-webkit-keyframes shine {
+100% {
+  left: 125%;
+}
+}
+
+@keyframes shine {
+100% {
+  left: 125%;
+}
+}
+.gray-bg {
+  background: #f3f3f3;;
+}
+.pb-120 {
+  padding-bottom: 90px;
+}
+.pt-50 {
+  padding-top: 50px;
+}
+
+.container {
+  margin-top: 100px
+}
+
+.counter-box {
+  display: block;
+  background: #f6f6f6;
+  padding: 40px 20px 37px;
+  text-align: center
+}
+
+.counter-box p {
+  margin: 5px 0 0;
+  padding: 0;
+  color: #909090;
+  font-size: 18px;
+  font-weight: 500
+}
+
+.counter-box i {
+  font-size: 60px;
+  margin: 0 0 15px;
+  color: #d2d2d2
+}
+
+.counter {
+  display: block;
+  font-size: 32px;
+  font-weight: 700;
+  color: #666;
+  line-height: 28px
+}
+
+.counter-box.colored {
+  background: #3acf87
+}
+
+.counter-box.colored p,
+.counter-box.colored i,
+.counter-box.colored .counter {
+  color: #fff
+}
+
+
+

@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+.profile-wrapper {
+    padding: 14px 30px;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    margin: 10px auto;
+    max-width: 600px;
+}
+
+h4 {
+    letter-spacing: -1px;
+    font-weight: 400
+}
+
+.border-bottom .img {
+    width: 100px;
+    height: 100px;
+    border-radius: 6px;
+    object-fit: cover
+}
+
+#img-section p,
+#deactivate p {
+    font-size: 12px;
+    color: #777;
+    margin-bottom: 10px;
+    text-align: justify
+}
+
+#img-section b,
+#img-section button,
+#deactivate b {
+    font-size: 14px
+}
+
+label {
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: #777;
+    padding-left: 3px
+}
+
+.form-control {
+    border-radius: 5px
+}
+
+/* input[placeholder] {
+    font-weight: 100
+} */
+
+.form-control:focus {
+    box-shadow: none;
+    border: 1.5px solid #0779e4
+}
+
+select {
+    display: block;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    height: 40px;
+    padding: 5px 10px
+}
+
+select:focus {
+    outline: none
+}
+
+.button {
+    background-color: #fff;
+    color: #0779e4
+}
+
+.button:hover {
+    background-color: #0779e4;
+    color: #fff
+}
+
+.btn-primary {
+    background-color: #0779e4
+}
+
+.danger {
+    background-color: #fff;
+    color: #e20404;
+    border: 1px solid #ddd
+}
+
+.danger:hover {
+    background-color: #e20404;
+    color: #fff
+}
+
+
+/* table */
+.table-content {
+padding:15px;
+border:3px solid #dee2e6;
+width: fit-content
+}
+.table-content{
+  white-space: nowrap;
+  font-size: 14px;
+  
+}
+
+.table-content table th,
+.table-content .table th {
+  padding: 10px;
+  font-weight: 600;
+  background-color: #ee3231;
+  border-color: #ccc;
+  border-bottom: 0;
+  color: #fff;
+}
+
+.table-content table td,
+.table-content .table td {
+  padding: 10px;
+  padding:15px 0;
+  vertical-align: middle;
+  border:1px solid #dee2e6;
+  font-size:15px;
+  text-align:center;
+}
+
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.texty{
+    color:#e96125
+}
+.my_file{
+    background-color:blue;
+    color:white;
+    padding:5px;
+    border-radius:5px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+#submit{
+    margin:10px 0 10px 0;
+    background-color:blue;
+    color:white;
+    padding:7px;
+    border-radius:5px; 
+}
+
+
+
+@media(max-width:576px) {
+    .wrapper {
+        padding: 25px 20px
+    }
+
+    #deactivate {
+        line-height: 18px
+    }
+    .my_file{
+        width: 130px;
+    }
+}
